@@ -332,8 +332,31 @@ doc["aitetris"].bind("click", aitetris.do)
 <p></p><h2>github</h2>
 <p>取得site_Github_帳號倉儲管理權限</p>
 <p><span>登入Github帳號/網址輸入https://wcms.repl.co /進入2022 Fall</span></p>
-<p></p>
-<h2>FileZilla</h2>
+<h2>Replit</h2>
+<p>在 Replit 上執行 cmsimde 動態網站步驟：</p>
+<ol>
+<li>建立 <span>Replit </span>帳號，登入 Email 驗證 <span>Replit </span>寄出的註冊確認郵件</li>
+<li>以<span> cmsite </span>倉儲內容，<span>import repository </span>建立 repl</li>
+<li>在 shell 介面下執行 git submodule update --init --recursive，為了取下<span> cmsite</span><span> </span>倉儲中 cmsimde 子模組檔案</li>
+<li>在 shell 介面下執行 pip install flask flask_cors bs4 lxml pelican markdown gevent，為了安裝 cmsimde 所需要的模組</li>
+<li>將 main.py 設定為啟動程式</li>
+<li>按下 Run，啟動 main.py</li>
+<li>登入<span> cmsite </span>動態網站，修改管理者密碼、標題與內容後，以 generate_pages 將動態網頁內容轉為靜態網頁</li>
+<li>利用<span> <span>Replit</span></span><span> </span>中的 Version Control 功能，將改版資料推向遠端倉儲</li>
+</ol>
+<script>
+var winkVideoData_40923151 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/static" data-varname="winkVideoData_40923151" height="630" muted="true" width="1008">
+<source src="/downloads/Replit.mp4" type="video/mp4"/></video></div><h2>FileZilla</h2>
 <p><strong>使用filezilla連線stud.cycu.org</strong></p>
 <p><strong>step1.</strong><span>解壓縮FileZillaPortable_3.61.0.paf.exe，打開FileZillaPortable.exe。</span></p>
 <p><span><img alt="" height="326" src="/images/開啟FileZilla.png" width="631"/></span></p>
